@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Realtime full-stack chat, created using Redis, Next.js, TS and TailwindCss for styling. 
+## Some features, used in this project:
 
-## Getting Started
+Realtime messaging
 
-First, run the development server:
+- Adding friends and sending friend requests via email
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Performant database queries with Redis
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Responsive UI built with TailwindCSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Protection of sensitive routes
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Google authentication
 
-## Learn More
+- Built with TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+- TailwindCSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Class merging with tailwind-merge
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Conditional classes with clsx
 
-## Deploy on Vercel
+- Variants with class-variance-authority
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# List of all dependencies used in this app
+├── @headlessui/react@1.7.18
+├── @hookform/resolvers@3.3.4
+├── @next-auth/upstash-redis-adapter@3.0.4
+├── @tailwindcss/forms@0.5.7
+├── @types/node@20.11.30
+├── @types/react-dom@18.2.22
+├── @types/react@18.2.70
+├── @upstash/redis@1.29.0
+├── autoprefixer@10.4.19
+├── axios@1.6.8
+├── class-variance-authority@0.7.0
+├── clsx@2.1.0
+├── date-fns@3.6.0
+├── encoding@0.1.13
+├── eslint-config-next@14.1.4
+├── eslint@8.57.0
+├── lucide-react@0.363.0
+├── nanoid@5.0.6
+├── next-auth@4.24.7
+├── next@14.1.4
+├── postcss@8.4.38
+├── pusher-js@8.4.0-rc2
+├── pusher@5.2.0
+├── react-dom@18.2.0
+├── react-hook-form@7.51.2
+├── react-hot-toast@2.4.1
+├── react-icons@5.0.1
+├── react-textarea-autosize@8.5.3
+├── react@18.2.0
+├── tailwind-merge@2.2.2
+├── tailwindcss@3.4.1
+├── typescript@5.4.3
+└── zod@3.22.4

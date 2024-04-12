@@ -7,7 +7,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
+    container :{
+      center: true,
+      padding: "1.5rem",
+      screens: {
+        "2xl": "1360px"
+      }
+    },
     extend: {
+      animation: {
+        "spin-once": "spin 3s linear infinite",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
