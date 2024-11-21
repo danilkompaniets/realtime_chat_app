@@ -1,83 +1,64 @@
-![Create Next App · 11 33am · 04-12 (1)](https://github.com/danilkompaniets/realtime_chat_app/assets/46541359/5bb3656c-d886-47b7-b8a8-e503944bfbdb)
+# Realtime чат с использованием Redis, Next.js, TypeScript и TailwindCSS
 
+Проект был создан для изучения работы веб-сокетов и реального времени в коммуникациях. Структура проекта позволяет легко добавлять новые функции и расширять функциональность.
 
-# Realtime full-stack chat, created using Redis, Next.js, TS and TailwindCss for styling. 
-The project was made in order to gain knowledge about the work of web sockets and real-time communications. The project structure makes it easy to add new features.
-## Some features, used in this project:
+## Основные возможности:
+- **Мгновенные сообщения в реальном времени**: Обмен сообщениями между пользователями через WebSocket.
+- **Добавление друзей и отправка заявок на добавление через email**: Удобная система управления друзьями.
+- **Высокая производительность запросов с Redis**: Использование Redis для быстрого хранения и извлечения данных.
+- **Адаптивный интерфейс**: Современный UI с использованием TailwindCSS.
+- **Защищенные маршруты**: Доступ к определенным страницам только для авторизованных пользователей.
+- **Аутентификация через Google**: Легкий вход в приложение с использованием Google OAuth.
+- **Полная поддержка TypeScript**: Приложение полностью написано на TypeScript для улучшения типизации и разработки.
+- **Поддержка классов с `tailwind-merge`**: Удобное объединение классов TailwindCSS.
+- **Условные классы с `clsx`**: Легкость в применении условий для классов.
+- **Варианты с `class-variance-authority`**: Управление стилями через вариативные классы для повышения гибкости интерфейса.
 
-Realtime messaging
+## Технологический стек:
+- **Next.js**: Использован для создания универсального React-приложения.
+- **Redis**: Для кэширования и улучшения производительности запросов.
+- **TailwindCSS**: Для стилизации интерфейса и создания адаптивных страниц.
+- **WebSocket**: Реализация обмена сообщениями в реальном времени.
+- **Google OAuth**: Для аутентификации через Google.
 
-- Adding friends and sending friend requests via email
+## Дополнительные особенности:
+- **Производительность**: Использование Redis позволяет значительно ускорить работу с данными, что особенно важно при работе в реальном времени.
+- **Модульность**: Структура проекта продумана для добавления новых фич, таких как видеочат или расширенные настройки уведомлений.
+- **Безопасность**: Вся критическая информация защищена, а аутентификация осуществляется через проверенные системы (например, Google OAuth).
 
-- Performant database queries with Redis
+Этот проект — отличное решение для тех, кто хочет улучшить свои знания в области веб-сокетов, реального времени и современного веб-разработки. Попробуйте его и оцените возможности для расширения!
 
-- Responsive UI built with TailwindCSS!
+## Список зависимостей:
+- `@headlessui/react@1.7.18`
+- `@hookform/resolvers@3.3.4`
+- `@next-auth/upstash-redis-adapter@3.0.4`
+- `@tailwindcss/forms@0.5.7`
+- `@types/node@20.11.30`
+- `@types/react-dom@18.2.22`
+- `@types/react@18.2.70`
+- `@upstash/redis@1.29.0`
+- `autoprefixer@10.4.19`
+- `axios@1.6.8`
+- `class-variance-authority@0.7.0`
+- `clsx@2.1.0`
+- `date-fns@3.6.0`
+- `encoding@0.1.13`
+- `eslint-config-next@14.1.4`
+- `lucide-react@0.363.0`
+- `nanoid@5.0.6`
+- `next-auth@4.24.7`
+- `pusher@5.2.0`
+- `react-hook-form@7.51.2`
+- `react-hot-toast@2.4.1`
+- `react-icons@5.0.1`
+- `react-textarea-autosize@8.5.3`
+- `react@18.2.0`
+- `tailwindcss@3.4.1`
+- `zod@3.22.4`
 
+## Дополнительные особенности:
+- **Производительность**: Использование Redis позволяет значительно ускорить работу с данными, что особенно важно при работе в реальном времени.
+- **Модульность**: Структура проекта продумана для добавления новых фич, таких как видеочат или расширенные настройки уведомлений.
+- **Безопасность**: Вся критическая информация защищена, а аутентификация осуществляется через проверенные системы (например, Google OAuth).
 
-- Protection of sensitive routes
-
-- Google authentication
-
-- Built with TypeScript
-
-- TailwindCSS
-
-- Class merging with tailwind-merge
-
-- Conditional classes with clsx
-
-- Variants with class-variance-authority
-
-### List of all dependencies used in this app
-
-├── @headlessui/react@1.7.18
-
-├── @hookform/resolvers@3.3.4
-
-├── @next-auth/upstash-redis-adapter@3.0.4
-
-├── @tailwindcss/forms@0.5.7
-
-├── @types/node@20.11.30
-
-├── @types/react-dom@18.2.22
-
-├── @types/react@18.2.70
-
-├── @upstash/redis@1.29.0
-
-├── autoprefixer@10.4.19
-
-├── axios@1.6.8
-
-├── class-variance-authority@0.7.0
-
-├── clsx@2.1.0
-
-├── date-fns@3.6.0
-
-├── encoding@0.1.13
-
-├── eslint-config-next@14.1.4
-
-├── lucide-react@0.363.0
-
-├── nanoid@5.0.6
-
-├── next-auth@4.24.7
-
-├── pusher@5.2.0
-
-├── react-hook-form@7.51.2
-
-├── react-hot-toast@2.4.1
-
-├── react-icons@5.0.1
-
-├── react-textarea-autosize@8.5.3
-
-├── react@18.2.0
-
-├── tailwindcss@3.4.1
-
-└── zod@3.22.4
+Этот проект — отличное решение для тех, кто хочет улучшить свои знания в области веб-сокетов, реального времени и современного веб-разработки. Попробуйте его и оцените возможности для расширения!
